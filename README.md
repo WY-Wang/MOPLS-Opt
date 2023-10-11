@@ -30,3 +30,17 @@ An example of how to run MOPLS on a bi-objective DTLZ2 is provided in the file e
 * Note: Various types of experimental design methods and surrogate models are available in pySOT. Like the customization for test problem, you can also program and use your own exp_design and surrogate classes in RECAS, but they must inherit from the parent classes, pySOT.ExperimentalDesign and pySOT.Surrogate, respectively.
 
 For further information please contact the developer at [email](mailto:wangwenyu0928@gmail.com).
+
+## Reference
+
+If you use MOPLS, please cite the following paper:
+```
+@article{wang2023efficient,
+  title={Efficient multi-objective optimization through parallel surrogate-assisted local search with tabu mechanism and asynchronous option},
+  author={Wang, Wenyu and Akhtar, Taimoor and Shoemaker, Christine A},
+  journal={Engineering Optimization},
+  pages={1--17},
+  year={2023},
+  publisher={Taylor \& Francis}
+}
+```
